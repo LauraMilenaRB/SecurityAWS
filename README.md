@@ -5,8 +5,8 @@
 
 ##Prerequisitos
 1. Crear una cuenta de AWS.
-2. Tener Git
-3. Instalar AWS CLI
+2. Tener Git.
+3. Instalar AWS CLI.
 ##Arquitectura propuesta
 La arquitectura de la aplicación utiliza AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito y la consola de AWS Amplify.
 
@@ -18,15 +18,20 @@ La arquitectura de la aplicación utiliza AWS Lambda, Amazon API Gateway, Amazon
 * También permitirá a los usuarios registrarse al servicio e iniciar sesión antes de solicitar paseos.
 
 ##1. Alojamiento web estático con implementación continua.
-1. Luego de seleccionar,crear y clonar el repositorio habilite el alojamiento web con AWS Amplify.
-![img_2.png](img_2.png)
-2. Autorice la cuenta de AWS con github
-![img_3.png](img_3.png)
-3. Luego configure amplify para que Amplify cree los recursos de la aplicacion.
-![img_4.png](img_4.png)
-4. Una vez finalizado el proceso, al hacer clic en la imagen se lanza el sitio de Wild Rydes.
-![img_5.png](img_5.png)
-##2. .
+   1. Luego de seleccionar,crear y clonar el repositorio habilite el alojamiento web con AWS Amplify.
+   ![img_2.png](img_2.png)
+   2. Autorice la cuenta de AWS con github.
+   3. Luego configure amplify para que Amplify cree los recursos de la aplicacion.
+      ![img_4.png](img_4.png)
+   4. Una vez finalizado el proceso, al hacer clic en la imagen se lanza el sitio de Wild Rydes.
+      ![img_5.png](img_5.png)
+##2. Administración de usuarios con Cognito AWS.
+   1. Se crea un grupo de usuarios de Amazon Cognito
+   ![img_6.png](img_6.png)
+   2. Anote el Id de grupo generado de su grupo de usuarios.
+   ![img_7.png](img_7.png)
+   3. Luego se añade una aplicación al grupo de usuarios. Se debe asegurar que la opción Generate client secret (Generar secreto de cliente) no este seleccionada.
+   ![img_8.png](img_8.png)
 ##3. .
 ##4. .
 ##5.
