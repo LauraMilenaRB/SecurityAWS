@@ -22,7 +22,10 @@ La arquitectura de la aplicación utiliza AWS Lambda, Amazon API Gateway, Amazon
 ![img_2.png](img_2.png)
 2. Autorice la cuenta de AWS con github
 ![img_3.png](img_3.png)
-3. 
+3. Luego configure amplify para que Amplify cree los recursos de la aplicacion.
+![img_4.png](img_4.png)
+4. Una vez finalizado el proceso, al hacer clic en la imagen se lanza el sitio de Wild Rydes.
+![img_5.png](img_5.png)
 ##2. .
 ##3. .
 ##4. .
