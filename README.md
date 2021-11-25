@@ -17,7 +17,7 @@ La arquitectura de la aplicación utiliza AWS Lambda, Amazon API Gateway, Amazon
 * La aplicación tiene una interfaz basada en HTML para indicar la ubicación en la que desean que se les recoja e interactuará con un servicio web RESTful para enviar la solicitud y enviar un unicornio cercano. 
 * También permitirá a los usuarios registrarse al servicio e iniciar sesión antes de solicitar paseos.
 
-##1. Alojamiento web estático con implementación continua.
+##1. Alojamiento web estático con implementación continua con AWS Amplify.
    1. Luego de seleccionar,crear y clonar el repositorio habilite el alojamiento web con AWS Amplify.
    ![img_2.png](img_2.png)
    2. Autorice la cuenta de AWS con github.
@@ -32,7 +32,20 @@ La arquitectura de la aplicación utiliza AWS Lambda, Amazon API Gateway, Amazon
    ![img_7.png](img_7.png)
    3. Luego se añade una aplicación al grupo de usuarios. Se debe asegurar que la opción Generate client secret (Generar secreto de cliente) no este seleccionada.
    ![img_8.png](img_8.png)
-##3. .
+   4. Verifique el funcionamiento de su aplicación, registre un usuario nuevo.
+   ![img_9.png](img_9.png)
+   5. Si el usuario ha sido verificado o confirmado exitosamente deberia poder entrar a la aplicacion.
+   ![img_10.png](img_10.png)
+##3. Backend de servicios sin servidor con DynamoDB, AWS Lambda y Api Gateway.
+   1. Se crea una tabla en DynamoDB.
+    ![img_11.png](img_11.png)
+   2. Cree un nuevo rol asociado a su funcion lambda y cree una politica asociada a el.
+   ![img_12.png](img_12.png)
+   3. Luego Creamos una funcion lambda desde cero y le asociamos el rol existente *'WildRydesLambda'*.
+   ![img_13.png](img_13.png)
 ##4. .
+   ![img_14.png](img_14.png)
+![img_15.png](img_15.png)
+![img_16.png](img_16.png)
 ##5.
 
